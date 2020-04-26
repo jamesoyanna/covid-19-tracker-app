@@ -9,8 +9,8 @@ class App extends Component {
         data: {},
     }
     async componentDidMount(){
-        const fetchData = await fetchData();
-        this.setState({data: fetchData})
+        const fetchedData = await fetchData();
+        this.setState({data: fetchedData})
     }
 
     render() {
