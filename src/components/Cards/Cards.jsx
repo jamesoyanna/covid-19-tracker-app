@@ -21,7 +21,7 @@ const Cards = ({data: {confirmed, recovered, deaths, lastUpdate}})=>{
                          duration={2.5}
                          seperator=","
                          /></Typography>
-                     <Typography color="textSecondary">REAL DATE</Typography>
+                     <Typography color="textSecondary">{new Date(lastUpdate).toDateString()}</Typography>
                      <Typography variant="body2">Number of active cases of covid-19</Typography>
                  </CardContent>
                  </Grid>
