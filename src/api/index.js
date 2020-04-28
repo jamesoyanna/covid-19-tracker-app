@@ -9,3 +9,12 @@ export const fetchData = async()=>{
 
     }
 }
+
+// Second ApI
+export const fetchDailyData = async()=>{
+    try{
+
+    }catch(error){
+        
+    }
+}
